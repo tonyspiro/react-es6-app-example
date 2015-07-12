@@ -12,7 +12,7 @@ Get Started
 To get started, run the following commands:
 ```
 git clone https://github.com/tonyspiro/react-es6-browser-sync-example
-cd react-es6-browser-sync
+cd react-es6-browser-sync-example
 npm install
 (sudo npm install)
 gulp watch
