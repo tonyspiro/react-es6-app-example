@@ -7,6 +7,10 @@ This is a simple example app that pulls github user information from a username.
 4. [Material Design Lite](https://github.com/google/material-design-lite) for fun
 5. [Browser Sync](https://github.com/BrowserSync/browser-sync) to speed up development
 
+Demo
+----
+[http://tonyspiro.com/dev/react-es6-browser-sync-example/](http://tonyspiro.com/dev/react-es6-browser-sync-example/)
+
 Get Started
 ----
 To get started, run the following commands:
