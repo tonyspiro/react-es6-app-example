@@ -10,14 +10,14 @@ This is a simple example app that pulls github user information from a username.
 
 Demo
 ----
-[http://tonyspiro.com/dev/react-es6-browser-sync-example/](http://tonyspiro.com/dev/react-es6-browser-sync-example/)
+[http://tonyspiro.com/dev/react-es6-app-example/](http://tonyspiro.com/dev/react-es6-app-example/)
 
 Get Started
 ----
 To get started, run the following commands:
 ```
-git clone https://github.com/tonyspiro/react-es6-browser-sync-example
-cd react-es6-browser-sync-example
+git clone https://github.com/tonyspiro/react-es6-app-example
+cd react-es6-app-example
 npm install
 (sudo npm install)
 gulp watch
