@@ -1,4 +1,4 @@
-React ES6 Browser Sync
+React ES6 Browser Sync Example
 ===
 This is a simple example app that pulls information from a github user account from a username.  It is built using the following tools:
 

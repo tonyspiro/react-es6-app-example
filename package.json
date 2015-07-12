@@ -1,5 +1,5 @@
 {
-  "name": "react-es6-browser-sync",
+  "name": "react-es6-browser-sync-example",
   "version": "1.0.0",
   "description": "This is an example app that uses react in es6 to pull information from a github user with a little Browser Sync thrown in for easy development.",
   "main": "gulpfile.js",
