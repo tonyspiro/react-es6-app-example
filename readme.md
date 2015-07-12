@@ -11,7 +11,7 @@ This is a simple example app that pulls information from a github user account f
 Get Started
 ----
 To get started, run the following commands:
-```sh
+```
 git clone https://github.com/tonyspiro/react-es6-browser-sync
 cd react-es6-browser-sync
 npm install
