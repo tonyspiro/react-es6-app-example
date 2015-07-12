@@ -7,3 +7,14 @@ This is a simple example app that pulls information from a github user account f
 3. [Gulp](https://github.com/gulpjs/gulp) to run the build and watch processes
 4. [Material Design Lite](https://github.com/google/material-design-lite) for fun
 5. [Browser Sync](https://github.com/BrowserSync/browser-sync) to speed up development
+
+Get Started
+----
+To get started, run the following commands:
+```sh
+git clone https://github.com/tonyspiro/react-es6-browser-sync
+cd react-es6-browser-sync
+npm install
+(sudo npm install)
+gulp watch
+```
