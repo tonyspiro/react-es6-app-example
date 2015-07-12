@@ -1,5 +1,5 @@
 # React ES6 Browser Sync Example
-This is a simple example app that pulls information from a github user account from a username.  It is built using the following:
+This is a simple example app that pulls github user information from a username.  It is built using the following:
 
 1. [React in ES6](https://github.com/facebook/react)
 2. [Babel](https://github.com/babel/babel) for rendering ES6 and JSX to JS
