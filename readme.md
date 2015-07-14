@@ -5,7 +5,7 @@ Demo
 [http://tonyspiro.com/dev/react-es6-app-example/](http://tonyspiro.com/dev/react-es6-app-example/)
 Why
 ----
-This is a simple example app that demonstrates how to build component-based apps using React and ES6.  The app connects to the github API and displays a github user card in material design lite.
+This is a simple example app that demonstrates how to build component-based apps using React and ES6.  The app connects to the github API and displays a github user card using material design lite.
 
 1. [React in ES6](https://github.com/facebook/react)
 2. [Babel](https://github.com/babel/babel) for rendering ES6 and JSX to JS
