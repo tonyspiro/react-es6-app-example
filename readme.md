@@ -1,16 +1,17 @@
 React ES6 App Example
 ----
-This is a simple example app that pulls github user information from a username.  It is built using the following:
+Demo
+----
+[http://tonyspiro.com/dev/react-es6-app-example/](http://tonyspiro.com/dev/react-es6-app-example/)
+Why
+----
+This is a simple example app built to demonstrate how to build component-based apps using React and ES6.  The app connects to the github API and displays a github user card in material design lite.
 
 1. [React in ES6](https://github.com/facebook/react)
 2. [Babel](https://github.com/babel/babel) for rendering ES6 and JSX to JS
 3. [Gulp](https://github.com/gulpjs/gulp) to run the build and watch processes
 4. [Material Design Lite](https://github.com/google/material-design-lite) for fun
 5. [Browser Sync](https://github.com/BrowserSync/browser-sync) to speed up development
-
-Demo
-----
-[http://tonyspiro.com/dev/react-es6-app-example/](http://tonyspiro.com/dev/react-es6-app-example/)
 
 Get Started
 ----
