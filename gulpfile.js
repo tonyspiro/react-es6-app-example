@@ -1,12 +1,15 @@
-// gulpfile.jsw
+// gulpfile.js
 var gulp = require('gulp');
 var browserify = require('browserify');
 var babelify = require('babelify');
 var source = require('vinyl-source-stream');
 var browserSync = require('browser-sync');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var runSequence = require('run-sequence');
 
 gulp.task('build', function(){
-	browserify({
+	return browserify({
 		entries: 'index.jsx',
 		extensions: ['.jsx'],
 		debug: true
@@ -18,10 +21,19 @@ gulp.task('build', function(){
 	.pipe(browserSync.reload({ stream: true, once: true }));
 });
 
-gulp.task('default',['build']);
+gulp.task('compress', function() {
+  return gulp.src('./dist/bundle.js')
+  	.pipe(uglify())
+		.pipe(rename({suffix: '.min'}))
+	  .pipe(gulp.dest('dist'));
+});
 
 gulp.task('bs-reload',function(){
 	browserSync.reload();
+});
+
+gulp.task('default', function(cb) {
+  runSequence('build','compress', cb);
 });
 
 gulp.task('watch', function() {
